@@ -10,38 +10,38 @@ function Projects() {
       {
         title: "Home Rental Application",
         image: websiteImg1,
-        description:
-          "I developed a Full Stack Home Rentals application that enables users to create, manage, and search for property listings. Leveraging technologies like React, Redux and CSS, I implemented features such as user authentication, property creation, booking functionality, and wishlist management. My proficiency in Redux and MongoDB allowed me to build a seamless user experience. The project demonstrates my skills in full-stack development, UI design, and database management.KEYSKILLS: react,node,JWT,mongoose,express,materialUI",
+        description: "I developed a Full Stack Home Rentals application that enables users to create, manage, and search for property listings. Leveraging technologies like React, Redux and CSS, I implemented features such as user authentication, property creation, booking functionality, and wishlist management. My proficiency in Redux and MongoDB allowed me to build a seamless user experience. The project demonstrates my skills in full-stack development, UI design, and database management.KEYSKILLS: react,node,JWT,mongoose,express,materialUI",
         link: "https://sweet-sunshine-d07e1b.netlify.app",
+        githublink:"https://github.com/balasoundariya-fullstackdeveloper/DREAM-NEST"
       },
       {
         title: "Quiz App",
         image: websiteImg2,
-        description:
-          "I am creating a quiz website or app using React.js. In this quiz app, can update their own questions and provide multiple options. If a user selects the wrong answer, the app will display the correct answer. After submitting answers for all questions, the React.js quiz app will show the final score.Press Reset button for restart a quiz. KEYSKILLS:Javascript,CSS,Html,React.",
+        description: "I am creating a quiz website or app using React.js. In this quiz app, can update their own questions and provide multiple options. If a user selects the wrong answer, the app will display the correct answer. After submitting answers for all questions, the React.js quiz app will show the final score.Press Reset button for restart a quiz. KEYSKILLS:Javascript,CSS,Html,React.",
         link: "https://jazzy-bubblegum-cf102b.netlify.app/",
+        githublink:"https://github.com/balasoundariya-fullstackdeveloper/project-7-quiz-app-using-react"
       },
       {
         title: "Book Store",
         image: websiteImg3,
-        description:
-          "This project demonstrates a Book Store application built using the MERN stack.Users can perform the following actions:Create Books: Add new books to the store. Edit Books: Modify existing book details. Delete Books: Remove books from the database. Features: Table View: By default, the home page displays books in a table format. Card View: Users can switch to a card view by clicking the “Card” button. Real-time Updates: Newly created, edited, and deleted books are automatically reflected in the database.KEYSKILLS:React,MongoDB,Express.js,Node.js",
+        description: "This project demonstrates a Book Store application built using the MERN stack.Users can perform the following actions:Create Books: Add new books to the store. Edit Books: Modify existing book details. Delete Books: Remove books from the database. Features: Table View: By default, the home page displays books in a table format. Card View: Users can switch to a card view by clicking the “Card” button. Real-time Updates: Newly created, edited, and deleted books are automatically reflected in the database.KEYSKILLS:React,MongoDB,Express.js,Node.js",
         link: "https://famous-gingersnap-7d98db.netlify.app",
+        githublink:"https://github.com/balasoundariya-fullstackdeveloper/MINI-PROJECT-1-BOOK-STORE"
       },
       {
         title: "Ecommerce App",
         image: websiteImg4,
-        description:
-          "This e-commerce website allows users to sign up, log in, view products via pagination or search, order products, submit reviews, and manage their cart. Users can adjust product quantities in the cart, proceed to checkout, enter shipping information, confirm orders, and complete payments. The navigation bar includes profile, order, and logout options. Admins, who are assigned roles in the database, have access to a dashboard where they can add, edit, delete products, and update product statuses (processing, shipped, delivered).",
+        description: "This e-commerce website allows users to sign up, log in, view products via pagination or search, order products, submit reviews, and manage their cart. Users can adjust product quantities in the cart, proceed to checkout, enter shipping information, confirm orders, and complete payments. The navigation bar includes profile, order, and logout options. Admins, who are assigned roles in the database, have access to a dashboard where they can add, edit, delete products, and update product statuses (processing, shipped, delivered).",
         link: "https://ecommerce-glj2.onrender.com",
+        githublink:"https://github.com/balasoundariya-fullstackdeveloper/ECOMMERCE"
       },
       {
         title: "Loan App",
         image: websiteImg5,
-        description:
-          "In this loan app, the admin can register and log in. When the “Add New” button is pressed, a form opens to enter the date, name, amount, image, reference, and description. If the delete icon is pressed, a confirmation box opens to ask for permission to delete the transaction. The admin can add new transactions, update, and delete transactions. There is also a filter to view transactions from the past week, month, or year. Additionally, a custom option allows manually setting the start and end dates to see specific transactions.",
+        description: "In this loan app, the admin can register and log in. When the “Add New” button is pressed, a form opens to enter the date, name, amount, image, reference, and description. If the delete icon is pressed, a confirmation box opens to ask for permission to delete the transaction. The admin can add new transactions, update, and delete transactions. There is also a filter to view transactions from the past week, month, or year. Additionally, a custom option allows manually setting the start and end dates to see specific transactions.",
         link: "https://keen-cascaron-2bf4cd.netlify.app",
-      },
+        githublink:"https://github.com/balasoundariya-fullstackdeveloper/Loan-App"
+      }
     ],
   };
 
@@ -61,10 +61,9 @@ function Projects() {
               <div className="project-desc">
                 <p className="text-center py-3">{project.title}</p>
                 <p className="text-center px-5 py-4">{project.description}</p>
-                <div className="flex justify-center">
-                  <a className="btn" href={project.link} rel="noreferrer" target="_blank">
-                    View Project
-                  </a>
+                <div className="flex justify-center px-10">
+                  <a className="btn mr-2" href={project.githublink} rel="noreferrer" target="_blank"> Github </a>
+                  <a className="btn ml-2" href={project.link} rel="noreferrer" target="_blank"> View Project </a>
                 </div>
               </div>
             </div>
