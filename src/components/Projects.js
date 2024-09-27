@@ -39,8 +39,8 @@ function Projects() {
         title: "Loan App",
         image: websiteImg5,
         description:
-          "This e-commerce website allows users to sign up, log in, view products via pagination or search, order products, submit reviews, and manage their cart. Users can adjust product quantities in the cart, proceed to checkout, enter shipping information, confirm orders, and complete payments. The navigation bar includes profile, order, and logout options. Admins, who are assigned roles in the database, have access to a dashboard where they can add, edit, delete products, and update product statuses (processing, shipped, delivered).",
-        link: "https://ecommerce-glj2.onrender.com",
+          "In this loan app, the admin can register and log in. When the “Add New” button is pressed, a form opens to enter the date, name, amount, image, reference, and description. Upon clicking the “Save” button, all details are submitted in a table. Each row has edit and delete icons. If the delete icon is pressed, a confirmation box opens to ask for permission to delete the transaction. The admin can add new transactions, update, and delete transactions. There is also a filter to view transactions from the past week, month, or year. Additionally, a custom option allows manually setting the start and end dates to see specific transactions.",
+        link: "https://keen-cascaron-2bf4cd.netlify.app",
       },
     ],
   };
