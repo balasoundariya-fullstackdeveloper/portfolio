@@ -2,6 +2,7 @@ import websiteImg1 from "../assets/homerental.png";
 import websiteImg2 from "../assets/quizapp.png";
 import websiteImg3 from "../assets/bookstore.png";
 import websiteImg4 from "../assets/ecommerce.png";
+import websiteImg5 from "../assets/loanapp.png";
 
 function Projects() {
   const config = {
@@ -30,6 +31,13 @@ function Projects() {
       {
         title: "Ecommerce App",
         image: websiteImg4,
+        description:
+          "This e-commerce website allows users to sign up, log in, view products via pagination or search, order products, submit reviews, and manage their cart. Users can adjust product quantities in the cart, proceed to checkout, enter shipping information, confirm orders, and complete payments. The navigation bar includes profile, order, and logout options. Admins, who are assigned roles in the database, have access to a dashboard where they can add, edit, delete products, and update product statuses (processing, shipped, delivered).",
+        link: "https://ecommerce-glj2.onrender.com",
+      },
+      {
+        title: "Loan App",
+        image: websiteImg5,
         description:
           "This e-commerce website allows users to sign up, log in, view products via pagination or search, order products, submit reviews, and manage their cart. Users can adjust product quantities in the cart, proceed to checkout, enter shipping information, confirm orders, and complete payments. The navigation bar includes profile, order, and logout options. Admins, who are assigned roles in the database, have access to a dashboard where they can add, edit, delete products, and update product statuses (processing, shipped, delivered).",
         link: "https://ecommerce-glj2.onrender.com",
