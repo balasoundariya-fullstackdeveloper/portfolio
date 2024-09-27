@@ -6,7 +6,7 @@ function Profile() {
     const config  = {
         subtitle: 'Iam a Full-stack developer ',
         social: {
-            Github: 'https://github.com/soundariyabala',
+            Github: 'https://github.com/balasoundariya-fullstackdeveloper',
             linkedin: 'https://linkedin.com/in/bala-soundariya-759429296'
         }
     }
