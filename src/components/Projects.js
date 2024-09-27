@@ -11,7 +11,7 @@ function Projects() {
         image: websiteImg1,
         description:
           "I developed a Full Stack Home Rentals application that enables users to create, manage, and search for property listings. Leveraging technologies like React, Redux and CSS, I implemented features such as user authentication, property creation, booking functionality, and wishlist management. My proficiency in Redux and MongoDB allowed me to build a seamless user experience. The project demonstrates my skills in full-stack development, UI design, and database management.KEYSKILLS: react,node,JWT,mongoose,express,materialUI",
-        link: "https://inspiring-starship-a6f49e.netlify.app/",
+        link: "https://sweet-sunshine-d07e1b.netlify.app",
       },
       {
         title: "Quiz App",
