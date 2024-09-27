@@ -26,7 +26,7 @@ function Projects() {
         image: websiteImg3,
         description:
           "This project demonstrates a Book Store application built using the MERN stack.Users can perform the following actions:Create Books: Add new books to the store. Edit Books: Modify existing book details. Delete Books: Remove books from the database. Features: Table View: By default, the home page displays books in a table format. Card View: Users can switch to a card view by clicking the “Card” button. Real-time Updates: Newly created, edited, and deleted books are automatically reflected in the database.KEYSKILLS:React,MongoDB,Express.js,Node.js",
-        link: "https://spectacular-belekoy-5cd9d9.netlify.app/",
+        link: "https://famous-gingersnap-7d98db.netlify.app",
       },
       {
         title: "Ecommerce App",
