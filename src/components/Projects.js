@@ -39,7 +39,7 @@ function Projects() {
         title: "Loan App",
         image: websiteImg5,
         description:
-          "In this loan app, the admin can register and log in. When the “Add New” button is pressed, a form opens to enter the date, name, amount, image, reference, and description. Upon clicking the “Save” button, all details are submitted in a table. Each row has edit and delete icons. If the delete icon is pressed, a confirmation box opens to ask for permission to delete the transaction. The admin can add new transactions, update, and delete transactions. There is also a filter to view transactions from the past week, month, or year. Additionally, a custom option allows manually setting the start and end dates to see specific transactions.",
+          "In this loan app, the admin can register and log in. When the “Add New” button is pressed, a form opens to enter the date, name, amount, image, reference, and description. If the delete icon is pressed, a confirmation box opens to ask for permission to delete the transaction. The admin can add new transactions, update, and delete transactions. There is also a filter to view transactions from the past week, month, or year. Additionally, a custom option allows manually setting the start and end dates to see specific transactions.",
         link: "https://keen-cascaron-2bf4cd.netlify.app",
       },
     ],
