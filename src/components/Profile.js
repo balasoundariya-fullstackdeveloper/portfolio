@@ -17,8 +17,8 @@ function Profile() {
                 <p className='text-2xl'>{config.subtitle}</p>
             </h1>
             <div className='flex py-10'>
-                <a href={config.social.Github} className='pr-5 hover:text-white'><AiOutlineGithub size={40} /></a>
-                <a href={config.social.linkedin} className='hover:text-white'><AiOutlineLinkedin size={40}/></a>
+                <a href={config.social.Github}target="_blank" rel="noreferrer" className='pr-5 hover:text-white'><AiOutlineGithub size={40} /></a>
+                <a href={config.social.linkedin}target="_blank" rel="noreferrer" className='hover:text-white'><AiOutlineLinkedin size={40}/></a>
             </div>
        </div>
        <img className='md:w-1/6' src={Profileimg} alt='' />
